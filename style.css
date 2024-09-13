@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content {
+    height: 700px;
+    width: 360px;
+}
+.h2 {
+    font-size: 32px;
+    padding-bottom: 25px;
+    
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.h4 {
+    font-size: 16px;
+    color: gray;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.h5 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.pw {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.forgot {
+    padding-left: 100px;
+}
+.chexbox {
+    margin-bottom: 20px;
+}
+.href {
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 130px;
+    color: #fff
+    
+}
+.in {
+    background: #0D6EFD;
+    width: auto;
+    border-radius: 4px;
+    padding: 6px 12px 8px 12px;
+    position: relative;
+    gap: 8px;
+}
+
+.google-signin-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    border: 2px solid #4285F4;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #4285F4;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.google-signin-btn img {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.google-signin-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 34px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+
+}
+.signup-container a {
+    color: #4285F4;
+    margin-left: 5px;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+.ff {
+    font-size: 16px;
+    color: gray;
+    padding-top: 5px;
+}
+.form-control {
+    width: 360px;
+}
+.col-sm-10 {
+    width: auto;
+    margin-bottom: 15px;
+}
+.mb-3-row {
+    width: auto;
+    margin-top: 15px;
+}
